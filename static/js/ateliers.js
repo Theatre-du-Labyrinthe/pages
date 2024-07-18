@@ -219,7 +219,7 @@ function loadTarifs() {
         h5.textContent = `atelier ${elt['niveau']}`.toUpperCase();
         title.textContent = `Atelier ${elt['niveau']}`;
         const tarif = `<span style="font-weight: bold;">${elt['tarif']} €/an</span>`
-        const adhesion = `<span style="font-weight: bold;">+20 €</span> d'adhésion à l'association`
+        const adhesion = `<span style="font-weight: bold;">+25 €</span> d'adhésion à l'association`
         const x3 = `<span style="font-style: italic;">payable en 3 fois sur 3 mois</span>`;
         txt.innerHTML = `${tarif}<br>${adhesion}<br>${x3}`;
 
