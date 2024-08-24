@@ -6,64 +6,64 @@ const ATELIERS = [
         'depart': '10h30',
         'fin': '12h',
         'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
-        'tarif': '275',
-        'date-rentree': '6 Septembre 2023',
-        'img-src': 'dist/front/enfants.jpg'
+        'tarif': '290',
+        'date-rentree': '6 Septembre 2024',
+        'img-src': 'dist/front/enfants2.avif'
     },
     {
         'niveau': 'Ados 1',
-        'scolaire': 'Collège',
+        'scolaire': '',
         'jour': 'Mercredi',
         'depart': '14h',
         'fin': '15h30',
         'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
-        'tarif': '275',
+        'tarif': '290',
         'date-rentree': '11 Septembre 2024',
-        'img-src': 'dist/front/ado1.jpg'
+        'img-src': 'dist/front/ado2.avif'
     },
     {
         'niveau': 'Ados 2',
-        'scolaire': 'Collège',
-        'jour': 'Mercredi',
-        'depart': '17h35',
-        'fin': '17h05',
-        'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
-        'tarif': '275',
-        'date-rentree': '11 Septembre 2024',
-        'img-src': 'dist/front/ado1.jpg'
-    },
-    {
-        'niveau': 'Adultes',
         'scolaire': '',
         'jour': 'Mercredi',
-        'depart': '20h30',
-        'fin': '22h30',
+        'depart': '17h35',
+        'fin': '19h05',
         'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
-        'tarif': '355',
+        'tarif': '290',
         'date-rentree': '11 Septembre 2024',
-        'img-src': 'dist/front/master.jpg'
+        'img-src': 'dist/front/ado3.avif'
     },
     {
-        'niveau': 'Ados Confirmés',
-        'scolaire': 'Collège - Lycée',
+        'niveau': 'Ados 3',
+        'scolaire': '',
         'jour': 'Mardi',
         'depart': '18h30',
         'fin': '20h',
         'lieu': 'Maison pour tous de la Cité, 52 impasse Huysmans Rechèvres',
-        'tarif': '270',
+        'tarif': '290',
         'date-rentree': '10 Septembre 2024',
-        'img-src': 'dist/front/conf.jpg'
+        'img-src': 'dist/front/conf.avif'
     },
     {
-        'niveau': 'Adultes',
+        'niveau': 'Adultes 1',
+        'scolaire': '',
+        'jour': 'Mercredi',
+        'depart': '20h30',
+        'fin': '22h30',
+        'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
+        'tarif': '370',
+        'date-rentree': '11 Septembre 2024',
+        'img-src': 'dist/front/adultes4.avif'
+    },
+    {
+        'niveau': 'Adultes 2',
         'scolaire': '',
         'jour': 'Mardi',
         'depart': '20h30',
         'fin': '22h30',
         'lieu': 'Maison pour tous de la Cité, 52 impasse Huysmans Rechèvres',
-        'tarif': '355',
+        'tarif': '370',
         'date-rentree': '10 Septembre 2024',
-        'img-src': 'dist/front/adultes2.jpg'
+        'img-src': 'dist/front/adultes5.avif'
     }
 ];
 

@@ -63,8 +63,8 @@ a.resa_link {
 
 
 .main-container {
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .sub-container {
@@ -296,6 +296,8 @@ hr {
         width: 100%;
         flex-flow: row wrap;
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .overlay {
         position: absolute;
