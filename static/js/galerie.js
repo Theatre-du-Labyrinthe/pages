@@ -4,6 +4,15 @@ const BLEUE_NUIT = [[1, 2, 3, 4, 5, 6, 7, 8, 17], [9, 10, 11, 12, 13, 14, 15, 16
 const ROUGE_CERISE = [[1, 2, 3, 4, 5, 6, 7], [9, 10, 11, 12, 13, 14, 15, 8], [18, 19, 20, 21, 22, 23, 24, 17], [26, 27, 28, 29, 30, 25, 16, 31]];
 const ROUGE_CERISE_2022 = [[1, 2,  3, 4,  5,  6, 7, 32], [9, 10, 11, 12, 13, 14, 15, 8], [18, 19, 20, 21, 22, 23, 24, 17], [26, 27, 28, 29, 30, 25, 16, 31]];
 const PEPIN = [[1, 2, 5], [3, 4], [6, 7, 8], [9, 10]];
+const OLYMPE = [[1, 2, 3, 4, 5, 6, 7, 8, 9,10], 
+                [11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+                [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31] ];
+const MISIA = [[1, 2, 3, 4, 5, 6, 7, 8, 9,10,32,33,34],
+                [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 35,36,37],
+                [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,38,39] ];
+const FINANNEE = [[1, 2, 3, 4, 5, 6, 7, 8, 9,10,32,33,34],
+                [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 35,36,37],
+                [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,38] ];
 
 function loadGalerie(name, arr, cont) {
 
@@ -76,6 +85,18 @@ if (document.getElementById("green_container")) {
     cont = document.getElementById("pepin_container")
     name_ = "Un_Pepin_dans_la_paille";
     arr = PEPIN;
+} else if (document.getElementById("olympe_container")) {
+    cont = document.getElementById("olympe_container")
+    name_ = "olympe_01";
+    arr = OLYMPE;
+} else if (document.getElementById("misia_container")) {
+    cont = document.getElementById("misia_container")
+    name_ = "misia";
+    arr = MISIA;
+} else if (document.getElementById("fin_annee_container")) {
+    cont = document.getElementById("fin_annee_container")
+    name_ = "fin_annee_2024";
+    arr = FINANNEE;
 }
 
 loadGalerie(name_, arr, cont);

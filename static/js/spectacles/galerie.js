@@ -1,5 +1,26 @@
 const SPECTACLES = [
     {
+        'name': 'Fin d\'année (2024)',
+        'date': '2024',
+        'src': 'fin_annee.png',
+        'auth': '',
+        'link': 'fin-annee'
+    },
+    {
+        'name': 'Misia',
+        'date': '2024',
+        'src': 'misia.png',
+        'auth': 'Gwenaëlle Anglade',
+        'link': 'misia'
+    },
+    {
+        'name': 'Liberté, Égalité, Olympe de Gouge',
+        'date': '2024',
+        'src': 'olympe.png',
+        'auth': 'Gwenaëlle Anglade',
+        'link': 'olympe'
+    },
+    {
         'name': 'Rouge Cerise (2022)',
         'date': '2022',
         'src': 'Rouge Cerise 2022.JPG',
@@ -13,13 +34,6 @@ const SPECTACLES = [
         'auth': 'Gwenaëlle Anglade',
         'link': 'bleue-nuit'
     },
-    /* {
-        'name': 'Echec & Mat',
-        'date': '2015',
-        'src': 'Echec et Mat.png',
-        'auth': 'Gwenaëlle Anglade',
-        'link': 'echec-et-mat'
-    }, */
     {
         'name': 'Green Paradise',
         'date': '2016',
@@ -56,7 +70,7 @@ const SPECTACLES = [
         'link': 'un-pepin-dans-la-paille'
     },
     {
-        'name': 'Planête Terra',
+        'name': 'Planète Terra',
         'date': '2014',
         'src': 'Planete Terra.png',
         'auth': 'Gwenaëlle Anglade',

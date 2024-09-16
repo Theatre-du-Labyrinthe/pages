@@ -37,7 +37,7 @@ function loadHome() {
 
         let img = document.createElement('img');
         img.classList.add('d-block', 'w-100');
-        img.src = `dist/home/${i}.jpg`;
+        img.src = `dist/home/${i}.avif`;
 
         let label_cont = document.createElement('div');
         label_cont.classList.add("carousel-caption", "d-none", "d-md-block");
@@ -46,7 +46,7 @@ function loadHome() {
         let label_p = document.createElement('p');
         label_p.textContent = 'Dernière Création';
         let label_H3 = document.createElement('h3');
-        label_H3.textContent = 'Liberté, Égalité, Olympe de Gouges';
+        label_H3.textContent = '« Fin d\'année »';
 
         label_cont.appendChild(label_p);
         label_cont.appendChild(label_H3);
