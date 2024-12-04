@@ -1,5 +1,5 @@
 const ATELIERS = [
-    {
+    /* {
         'niveau': 'Enfants',
         'scolaire': 'Primaires',
         'jour': 'Mercredi',
@@ -9,8 +9,8 @@ const ATELIERS = [
         'tarif': '290',
         'date-rentree': '6 Septembre 2024',
         'img-src': 'dist/front/enfants2.avif'
-    },
-    {
+    }, */
+    /* {
         'niveau': 'Ados 1',
         'scolaire': '',
         'jour': 'Mercredi',
@@ -42,7 +42,7 @@ const ATELIERS = [
         'tarif': '290',
         'date-rentree': '10 Septembre 2024',
         'img-src': 'dist/front/conf.avif'
-    },
+    }, */
     {
         'niveau': 'Adultes 1',
         'scolaire': '',
