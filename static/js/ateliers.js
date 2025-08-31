@@ -49,9 +49,9 @@ const ATELIERS = [
         'jour': 'Mercredi',
         'depart': '20h30',
         'fin': '22h30',
-        'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
+        'lieu': 'Chapelle Saint Julien, 13 rue Saint Julien à Chartres',
         'tarif': '370',
-        'date-rentree': '11 Septembre 2024',
+        'date-rentree': '10 Septembre 2024',
         'img-src': 'dist/front/adultes4.avif'
     },
     {
@@ -62,7 +62,7 @@ const ATELIERS = [
         'fin': '22h30',
         'lieu': 'Maison pour tous de la Cité, 52 impasse Huysmans Rechèvres',
         'tarif': '370',
-        'date-rentree': '10 Septembre 2024',
+        'date-rentree': '9 Septembre 2024',
         'img-src': 'dist/front/adultes5.avif'
     }
 ];
