@@ -1,38 +1,38 @@
 const ATELIERS = [
-    /* {
+    {
         'niveau': 'Enfants',
         'scolaire': 'Primaires',
         'jour': 'Mercredi',
         'depart': '10h30',
         'fin': '12h',
-        'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
+        'lieu': 'Chapelle Saint Julien, 13 rue Saint Julien à Chartres',
         'tarif': '290',
-        'date-rentree': '6 Septembre 2024',
+        'date-rentree': '10 Septembre 2024',
         'img-src': 'dist/front/enfants2.avif'
-    }, */
-    /* {
+    },
+    {
         'niveau': 'Ados 1',
         'scolaire': '',
         'jour': 'Mercredi',
         'depart': '14h',
         'fin': '15h30',
-        'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
+        'lieu': 'Chapelle Saint Julien, 13 rue Saint Julien à Chartres',
         'tarif': '290',
-        'date-rentree': '11 Septembre 2024',
+        'date-rentree': '10 Septembre 2024',
         'img-src': 'dist/front/ado2.avif'
     },
     {
         'niveau': 'Ados 2',
         'scolaire': '',
         'jour': 'Mercredi',
-        'depart': '17h35',
-        'fin': '19h05',
-        'lieu': 'Chapelle Saint Julien, 1 rue Saint Julien',
+        'depart': '17h00',
+        'fin': '18h30',
+        'lieu': 'Chapelle Saint Julien, 13 rue Saint Julien à Chartres',
         'tarif': '290',
-        'date-rentree': '11 Septembre 2024',
+        'date-rentree': '10 Septembre 2024',
         'img-src': 'dist/front/ado3.avif'
     },
-    {
+    /* {
         'niveau': 'Ados 3',
         'scolaire': '',
         'jour': 'Mardi',
