@@ -1,5 +1,19 @@
 const SPECTACLES = [
     {
+        'name': 'Domino',
+        'date': '2025',
+        'src': 'domino.png',
+        'auth': 'Gwenaëlle Anglade',
+        'link': 'domino'
+    },
+    {
+        'name': 'Les Caprices de Marianne',
+        'date': '2025',
+        'src': 'marianne-2025.png',
+        'auth': '',
+        'link': 'marianne-2025'
+    },
+    {
         'name': 'Fin d\'année (2024)',
         'date': '2024',
         'src': 'fin_annee.png',

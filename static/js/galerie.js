@@ -13,6 +13,7 @@ const MISIA = [[1, 2, 3, 4, 5, 6, 7, 8, 9,10,32,33,34],
 const FINANNEE = [[1, 2, 3, 4, 5, 6, 7, 8, 9,10,32,33,34],
                 [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 35,36,37],
                 [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31,38] ];
+const DOMINO = [[1, 10, 2, 3, 13], [11, 6, 4], [12, 7, 8, 9]];
 
 function loadGalerie(name, arr, cont) {
 
@@ -97,6 +98,10 @@ if (document.getElementById("green_container")) {
     cont = document.getElementById("fin_annee_container")
     name_ = "fin_annee_2024";
     arr = FINANNEE;
+} else if (document.getElementById("domino_container")) {
+    cont = document.getElementById("domino_container")
+    name_ = "domino";
+    arr = DOMINO;
 }
 
 loadGalerie(name_, arr, cont);
