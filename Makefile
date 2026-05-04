@@ -1,6 +1,6 @@
 all:
 	fd -tf . html -e html -x python main.py {/}
-	mv ./home-rentree.html ./index.html
+	mv ./home-info.html ./index.html
 	# mv ./home.html ./index.html
 
 clean:

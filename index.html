@@ -133,64 +133,78 @@
 </div>
 
 
-<!-- Button trigger modal -->
 
-<button style="display:none" type="button" id="bts-modal-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<button style="display:none"
+        type="button"
+        id="bts-modal-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop">
 </button>
 
-<!-- Modal -->
-<div class="modal fade show" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
+<div class="modal fade show"
+     id="staticBackdrop"
+     data-bs-backdrop="static"
+     data-bs-keyboard="false"
+     tabindex="-1"
+     aria-labelledby="staticBackdropLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content home">
             <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">
-                    Infos rentrée 2025
+                    Spectacles du Labyrinthe, <b>Mai 2026</b>
                 </h5>
             </div>
-            <div class="modal-body" style="color:black">
+            <div class="modal-body" style="color:#2C1607; font-size:17px">
                 <div style="text-align:justify">
-                    <span class="modal-section"> Venez faire un cours d'essai gratuit ! </span> <br>
+                    Venez voir <b>Quand on aime</b> la nouvelle création et mise en scène du
+                    Théâtre du Labyrinthe !
+                    <!-- Venez voir les nouvelles créations et mises en scène du
+                    Théâtre du Labyrinthe ! <br><br> -->
+                    <!-- Vous retrouverez le (Petit) Théâtre du Labyrinthe le
+                    <b>Samedi 17 Mai</b>, pour ses spectacles
+                    enfants, ados et ados confirmés ! <br> -->
+                    <!-- Cette année, le Théâtre du Labyrinthe vous présente sa
+                    nouvelle création originale <b> Misia, ou l'intelligence
+                    artificielle </b> ! -->
+
+                    <br>
+                    <div class="affiches_home">
+                        <div>
+                            <a class="resa_link" href="https://www.helloasso.com/associations/theatre-du-labyrinthe/" target=_blank>
+                             <img src="dist/affiches/adultes/2026.avif"> </a> </div>
+                    </div>
+                    <br>
+                    Réservez dès maintenant en cliquant sur la date souhaitée.
                     <ul>
-                      <li> Mardi prochain
-                        <ul>
-                          <li> atelier ados (lycéens) à 18h30 à 20h </li>
-                          <li> atelier adultes à 20h30 à 22h30 </li>
-                        </ul>
-                      </li>
-                      <li> Mercredi prochain
-                        <ul>
-                          <li> atelier enfants de 10h30 à 12h </li>
-                          <li> atelier ados (collégiens) de 14h à 15h30 </li>
-                          <li> atelier adultes 20h30 à 22h30 </li>
-                        </ul>
-                      </li>
+                        <li> <a class="resa_link"
+                                 href="https://www.helloasso.com/associations/theatre-du-labyrinthe/evenements/2026-quand-on-aime-30-05"
+                                 target=_blank
+                             >Samedi 30 Mai — 20h30</a>
+                        </li>
+                        <li> <a class="resa_link"
+                                 href="https://www.helloasso.com/associations/theatre-du-labyrinthe/evenements/2026-quand-on-aime-31-05"
+                                 target=_blank
+                             >Dimanche 31 Mai — 16h30</a>
+                        </li>
                     </ul>
-                    <br>
-                    Il reste quelques places dans les ateliers pour un cours d'essai !
-                    N'hésitez pas à nous rejoindre !
-                    <br>
-                    Pour tous renseignements, merci de nous contacter au 06.69.30.64.22
-                    ou par mail
-                        <a href="mailto:theatredulabyrinthe@yahoo.com">
-                            <b>theatredulabyrinthe@yahoo.com</b>
-                        </a>.
-                    <!-- Merci de ne pas vous présenter au cours sans avoir eu au préalable un contact
-                    téléphonique ou électonique avec le professeur. -->
-                    <br>
-                    <br>
-                    <!-- Téléchargez aussi le <a class="the-red" href="dist/fichiers/flyer-2022.pdf" target="_blank">flyer</a> de rentrée ! -->
-                    <!-- À bientôt et surtout n'oubliez pas vos
-                    <span class="bold-red">Pass Sanitaires</span>
-                    ou <span class="bold-red">Tests PCR</span>
-                    de <b>moins de 72h obligatoires</b> pour les ateliers ! -->
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Compris !</button>
+                <div class="btn-group" role="group" aria-label="...">
+                    <button type="button"
+                            class="btn btn-outline-secondary"
+                            data-bs-dismiss="modal">Fermer</button>
+                    <button type="button"
+                            class="btn btn-outline-danger"
+                            onclick="window.location.href='https://www.helloasso.com/associations/theatre-du-labyrinthe';"
+                            target="_blank">Réserver !</button>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 
 
 
